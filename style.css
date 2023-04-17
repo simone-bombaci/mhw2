@@ -1,0 +1,94 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img.checkbox{
+    justify-content: center;
+    width: 100%;
+}
+
+section.choice-grid div{
+    width: 32.5%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+}
+
+section.choice-grid img{
+    width: 100%;
+}
+
+@media(max-width: 700px){
+    #icons{
+        display: none;
+    }
+
+    article{
+        width: 95%;
+    }
+
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 20px);
+    }
+}
+
+.choice-grid .checked{
+    background-color: #cfe3ff;
+}
+
+.choice-grid .unchecked{
+    opacity: 0.6;
+}
+
+.hidden{
+    display: none;
+}
+
+.exit{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.TextExit{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+button{
+    height: 50px;
+    width: 100%;
+}
+
+.one{
+    background-image: url(images/pilots1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two{
+    background-image: url(images/pilots2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url(images/secondary_characters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.question-name h1{
+    color: white;
+    background-color: rgb(1, 1, 1, 0.2);
+}
